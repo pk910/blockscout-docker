@@ -42,5 +42,5 @@ jobs:
           file: ./docker/Dockerfile
           build-args: |
             COIN=ETH
-          tags: skylenet/blockscout:${{ github.event.inputs.commitRef || env.DEFAULT_BRANCH }}
+          tags: pk910/blockscout:${{ github.event.inputs.commitRef || env.DEFAULT_BRANCH }}
           push: true
